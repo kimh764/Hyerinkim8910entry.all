@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Travel Companions</title>
+    <meta name="description" content="Web" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/destyle.css@1.0.5/destyle.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b8a7fea4d4.js"></script>
+  </head>
+
+  <body class="page-form">
+    <header>
+      <div class="wrapper">
+        <h1>
+          <a href="index.html">
+            <img
+              class="logo"
+              src="images/logo.svg"
+              alt="Travel Companions help"
+            />
+          </a>
+        </h1>
+        <nav>
+          <ul class="main-nav">
+            <li> <a href="Entry9.html" class="current meun-home">About</a></li>
+            <li> <a href="Entry8.html" class="current meun-job">Business</a></li>
+            <li> <a href="Help.Entry10.html" class="current meun-form">Help</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h2 class="title title-center"> How can we help you? </h2>
+      <p>After entering all the information, please press the 'Submit' button.</p>
+      <p class="text-small">
+        If you have a file, please be sure to provide the uploaded URL.
+      </p>
+      <form>
+        <table>
+          <tr>
+            <th>First Name</th>
+            <td><input type="text" placeholder="ex：Hyerin" /></td>
+          </tr>
+          <tr>
+            <th>Last Name</th>
+            <td><input type="text" placeholder="ex：Kim" /></td>
+          </tr>
+          <tr>
+            <th>Mail</th>
+            <td><input type="email" placeholder="ex：kimh764@newschool.edu" /></td>
+          </tr>
+          <tr>
+            <th>Attachments(optional)</th>
+            <td><input type="url" placeholder="ex：http:000@gamil.com" /></td>
+          </tr>
+          <tr>
+            <th>Preferred Contact Information</th>
+            <td>
+              <label>
+                <input type="checkbox" />
+                <span>Email</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Phone</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Chat online</span>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th>HELP</th>
+            <td>
+              <div class="select-box">
+                <select name="current-position">
+                  <option value="Usage Guidance">Usage Guidance</option>
+                  <option value="Account ">Account </option>
+                  <option value="Service">Service</option>
+                  <option value="Feature">Feature</option>
+                </select>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th>Description</th>
+            <td>
+              <textarea
+                placeholder="ex："
+              ></textarea>
+            </td>
+          </tr>
+        </table>
+        <p class="text-center">
+          <input type="submit" class="btn btn-primary" value="Send" />
+        </p>
+      </form>
+    </main>
+
+    <footer>
+      <ul class="footer-nav">
+        <li><a href="">App</a></li>
+        <li><a href="#">Travel</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Sign in</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
